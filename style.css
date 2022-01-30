@@ -1,0 +1,42 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: orange;
+    height: 100vh;
+}
+
+/* FLEX */
+.container{
+    display: flex;
+}
+
+/* IZQUIERDA */
+.izquierda{
+    padding: 20px;
+}
+.texto{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+.parrafo{
+    margin: 20px 0 20px 0;
+}
+.boton{
+    align-self: flex-end;
+}
+/* DERECHA */
+.derecha{
+    height: 100vh;
+}
+.banner{
+    height: 100%;
+}
